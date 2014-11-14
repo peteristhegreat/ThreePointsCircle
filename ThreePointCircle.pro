@@ -18,7 +18,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    graphicsscene.cpp
+    graphicsscene.cpp \
+    arcgraphicsitem.cpp
 
 HEADERS  += mainwindow.h \
-    graphicsscene.h
+    graphicsscene.h \
+    arcgraphicsitem.h

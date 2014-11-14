@@ -5,6 +5,7 @@
 #include <QGraphicsSceneMouseEvent>
 #include <QPointF>
 #include <QList>
+#include <QGraphicsItem>
 
 class GraphicsScene : public QGraphicsScene
 {
@@ -21,6 +22,7 @@ public slots:
 
 private:
     QList <QPointF> m_points;
+    QList <QGraphicsItem *> m_items;
 };
 
 #endif // GRAPHICSSCENE_H
